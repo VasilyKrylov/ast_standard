@@ -62,10 +62,11 @@ tree.txt:
       (:= ("y" nil nil)
           (0   nil nil)
       )
-   (while (x nil nil)
+   (; (while (x nil nil)
           (; (= (y nil nil)(+ (y nil nil)(x nil nil)))
              (= (x nil nil)(- (x nil nil)(1 nil nil)))
-          )
+          ))
+      nil
    )
 )
 
