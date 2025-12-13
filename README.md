@@ -119,6 +119,8 @@ func_name(a)
    x := 3;
 }
 
+func_name(3);
+
 (func (, ("func_name" nil nil)
          (, ("a" nil nil)
              nil)
@@ -127,6 +129,10 @@ func_name(a)
              (3 nil nil)
          ) nil
       )
+
+(call ("func_name" nil nil)
+      (, (3 nil nil) nil)
+)
 ```
 
 main - аналогично func, за исключением того, что оно обозначает точку входа(функцию, с которой начинается выполнение программы)
