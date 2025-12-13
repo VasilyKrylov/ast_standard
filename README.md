@@ -133,7 +133,11 @@ main - аналогично func, за исключением того, что �
 ```
 nameOfMainFunctionInLanguage(){}
 
-(main "nameOfMainFunctionInLanguage" ...)
+(main (, ("nameOfMainFunctionInLanguage" nil nil) nil)
+      (
+        // здесь тело функции
+      )
+)
 ```
 
 Три новых оператора
