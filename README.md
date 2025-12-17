@@ -90,7 +90,16 @@ if (x := 7)
 ```
 
 ```
+if (5) 
+   print(3);
+else
+   print(7);
 
+( ; ( if ( 5 nil nil )
+	     ( else ( ; ( print ( 3 nil nil ) nil ) nil )
+				( ; ( print ( 7 nil nil ) nil ) nil ) ) )
+	nil
+)
 ```
 
 ## Циклы
